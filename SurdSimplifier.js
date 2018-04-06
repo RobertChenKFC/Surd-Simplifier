@@ -13,20 +13,6 @@ function setup() {
 	
 	inputBox.input(() => {
 		try {
-			/*
-			const formula = new Formula(inputBox.value());
-
-			const formulaStr = formula.getLatex();
-			MathJax.Hub.queue.Push(["Text", formulaDiv, formulaStr]);	
-
-			const resultStr = formula.getResult();
-			MathJax.Hub.queue.Push(["Text", resultDiv, resultStr]);
-
-			errorDiv.html("Nothing");	
-
-			console.log("Done");
-			*/
-
 			let l = "\\sqrt{" + inputBox.value() + "}=";
 
 			let val = parseInt(inputBox.value());
